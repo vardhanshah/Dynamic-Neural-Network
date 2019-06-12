@@ -1,0 +1,12 @@
+Input_Filepath = train_data.csv     
+Input_Headers = true
+Input_Columns = 1-60
+Output_Filepath = train_data.csv
+Output_Headers = true
+Output_Columns = 61-64
+Hidden_Layers = 100,75,50,25
+Bias_Nodes = true
+Learning_Rate = 0.1
+Epochs = 100
+Mini_Batches = 4000
+Activation_Function = relu

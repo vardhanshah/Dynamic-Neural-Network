@@ -1,0 +1,17 @@
+x denotes input
+
+y denotes output
+
+w1, w2, w3, w4, w5, denotes weights
+
+b1, b2, b3, b4, b5, denotes biases
+
+a1 = relu(w1*x + b1)
+
+a2 = relu(w2*a1 + b2)
+
+a3 = relu(w3*a2 + b3)
+
+a4 = relu(w4*a3 + b4)
+
+y = relu(w5*a4 + b5)
